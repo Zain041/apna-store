@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb://localhost:27017/my-karigar",
+    "mongoCloud":"mongodb+srv://zain:235896Z@in@cluster0.dzmih.mongodb.net/my-karigar?retryWrites=true&w=majority",
+    "jwtSecret": "mySecretToken"
+    }
