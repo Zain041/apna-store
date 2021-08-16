@@ -6,10 +6,10 @@ const stripe = require("stripe")(
 );
 
 var sendEmail = require("../Email/Nodemailer");
-const PaymentSchema = require("../Models/Payment");
+const PaymentSchema = require("../models/Payment");
 const nodemailer = require("nodemailer");
 const User = require("../models/User");
-const BilingInfoSchema = require("../Models/bilingInfo");
+const BilingInfoSchema = require("../models/bilingInfo");
 let paymentSuccess = false;
 
 // All Bookings for AdminPanel

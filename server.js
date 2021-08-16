@@ -26,7 +26,7 @@ app.use("/api", require("./routes/blogRoute"));
 let Coupons = require("./routes/Coupan");
 app.post("/api/coupancreate", Coupons.create);
 app.get("/api/coupon_gets", Coupons.getAll);
-app.get("/api/coupon_get", Coupons.getone);
+app.get("/api/coupon_get", Coupons.getone); 
 app.post("/api/coupon_delete", Coupons.delete);
 app.post("/api/coupanupdate", Coupons.update);
 
@@ -42,7 +42,7 @@ app.post("/api/coupanupdate", Coupons.update);
 //   });
 // }
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000; 
 app.listen(port, (req, res) => {
   console.log(`server running ${port}`);
 });

@@ -1,4 +1,4 @@
-const coupanCode = require("../Models/CouponSchema");
+const coupanCode = require("../models/CouponSchema");
 
 const CoupanCrud = {
   create: async function (req, res) {
